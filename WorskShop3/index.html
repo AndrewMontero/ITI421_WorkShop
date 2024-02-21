@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audífonos JBL</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #add8e6; 
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .product {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        .product img {
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-info {
+            flex: 1;
+            padding-left: 20px;
+        }
+
+        .product-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .product-description {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            font-size: 20px;
+            color: #e74c3c;
+        }
+
+        .buy-button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .buy-button:hover {
+            background-color: #45a049;
+        }
+
+        .btn-info {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-info:hover {
+            background-color: #2980b9;
+        }
+
+        p {
+            color: #666;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenido principal -->
+    <main>
+        <!-- Descripción de la marca -->
+        <div class="container">
+            <h1>Audífonos JBL</h1>
+            <p>Escucha la verdad</p>
+            <a href="https://www.jbl.com/model/agera-rs" class="btn btn-info">Ver Más</a>
+        </div>
+        
+        <div class="container">
+            <div class="product">
+                <img src="https://www.istore.cr/cdn/shop/products/jbl-510bt-blanco-costarica.png?v=1668889736" alt="Audífonos JBL">
+                <div class="product-info">
+                    <div class="product-title">Audífonos JBL Tune 520BT</div>
+                    <div class="product-description">Disfruta de la música con la mejor calidad de sonido. Los audífonos JBL Tune 520BT son inalámbricos, cómodos y con respuesta de frecuencia de 20-20000Hz.</div>
+                    <div class="product-price">$229.900</div>
+                    <button class="buy-button" onclick="alert('¡Gracias por tu compra!')">Comprar</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://www.ebest.cl/media/catalog/product/cache/47abc4af9d81a631bd44d97ba9797770/e/-/e-45-rojo-2.jpg" alt="jbl">
+                <div class="product-info">
+                    <div class="product-title">JBL E45</div>
+                    <div class="product-description">Los auriculares JBL E45 ofrecen comodidad y calidad de sonido excepcional en un diseño elegante. Con micrófono y controles en el cable, son ideales para llamadas y control de música. Conexión Bluetooth para libertad inalámbrica.</div>
+                    <button class="buy-button" onclick="alert('¡Gracias por tu compra!')">Comprar</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="https://www.jbl.co.cr/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwf3add748/1.JBL_TUNE_230NC_Product%20image_Hero_Black.png" alt="Los auriculares JBL Tune 230NC ofrecen una experiencia de audio excepcional con cancelación de ruido activa. Ligeros y cómodos, te permiten sumergirte en tu música favorita sin distracciones. Conectividad Bluetooth para una experiencia inalámbrica conveniente.">
+                <div class="product-info">
+                    <div class="product-title">JBL Tune 230NC</div>
+                    <div class="product-description">Los auriculares JBL Tune 230NC ofrecen una experiencia de audio excepcional con cancelación de ruido activa. Ligeros y cómodos, te permiten sumergirte en tu música favorita sin distracciones. Conectividad Bluetooth para una experiencia inalámbrica conveniente.</div>
+                    <button class="buy-button" onclick="alert('¡Gracias por tu compra!')">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <!-- Mensaje de contacto -->
+        <div class="container">
+            <p>USTED PUEDE CONTACTARNOS CON CONSULTAS GENERALES A TRAVÉS DE LOS CANALES A CONTINUACIÓN.</p>
+            <p>¿Necesita ayuda?</p>
+            <a href="https://www.jbl.com/contact" class="btn btn-info">Contáctenos</a>
+        </div>
+    </main>
+</body>
+</html>
