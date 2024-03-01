@@ -13,6 +13,8 @@ body {
     background-color: #443b3b;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Box Model */
+    box-sizing: border-box;
 }
 
 h1 {
@@ -28,7 +30,7 @@ h1 {
     padding-bottom: 20px;
 }
 
-.product > img {
+.product img {
     width: 200px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -59,7 +61,7 @@ h1 {
 /* Combined Selector para botones de compra y de información */
 .buy-button:hover, 
 .btn-info:hover {
-    background-color: #2980b9;
+    background-color: #ac1596;
 }
 
 .buy-button, 
@@ -85,4 +87,18 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+.container {
+    /* Tus estilos existentes */
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #443b3b;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+
+    /* Permitir redimensionamiento */
+    resize: both;
+    overflow: auto;
 }

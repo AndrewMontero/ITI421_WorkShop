@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
- 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audífonos JBL</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        /* Estilos generales */
         body {
             font-family: 'Arial', sans-serif;
             background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/JBL-Logo.svg/1200px-JBL-Logo.svg.png");
@@ -17,10 +17,12 @@
         .container {
             max-width: 900px;
             margin: 20px auto;
-            padding: 20px;   
-            background-color: #fff;
+            padding: 20px;
+            background-color: #443b3b;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            /* Box Model */
+            box-sizing: border-box;
         }
 
         h1 {
@@ -54,10 +56,9 @@
             color: #333;
         }
 
-        .product-description {
+        .product-description, .product-price, p, a {
             font-size: 16px;
             color: #666;
-            margin-bottom: 10px;
         }
 
         .product-price {
@@ -65,10 +66,17 @@
             color: #e74c3c;
         }
 
-        .buy-button {
-            background-color: #4CAF50;
+        /* Combined Selector para botones de compra y de información */
+        .buy-button:hover,
+        .btn-info:hover {
+            background-color: #ac1596;
+        }
+
+        .buy-button,
+        .btn-info {
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/JBL-Logo.svg/1200px-JBL-Logo.svg.png");
             border: none;
-            color: white;
+            color: rgb(186, 195, 12);
             padding: 10px 20px;
             text-align: center;
             text-decoration: none;
@@ -78,29 +86,6 @@
             cursor: pointer;
             border-radius: 5px;
             transition: background-color 0.3s ease;
-        }
-
-        .buy-button:hover {
-            background-color: #45a049;
-        }
-
-        .btn-info {
-            background-color: #3498db;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 20px;
-            transition: background-color 0.3s ease;
-        }
-
-        .btn-info:hover {
-            background-color: #2980b9;
-        }
-
-        p {
-            color: #666;
         }
 
         a {
